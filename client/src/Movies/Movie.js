@@ -24,7 +24,7 @@ function Movie({ addToSavedList, movies, setMovieList }) {
           movie.id !== res.data
         )
         setMovieList(movies)
-        history.push('/movies')
+        history.push('/')
 
         })
       .catch( err => console.error(err))
